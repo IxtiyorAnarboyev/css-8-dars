@@ -1,0 +1,35 @@
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+}
+.menu-item{
+    width: 80px;
+    height: 100px;
+    list-style: none;
+    position: relative;
+    background-image: url(../rasmlar/0.jpg);
+    background-repeat: no-repeat;
+    background-position: -100px -180px;
+    margin-left: 100px;
+    float: left;
+}
+.menu-link{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.menu-item:nth-child(2){
+    background-position: -240px -180px;
+}
+.menu-item:nth-child(3){
+    background-position: -350px -180px;
+}
+.menu-item:nth-child(4){
+    background-position: -490px -180px;
+}
+.menu-item:nth-child(5){
+    background-position: -620px -180px;
